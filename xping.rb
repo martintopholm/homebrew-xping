@@ -4,8 +4,8 @@ class Xping < Formula
   depends_on "libevent"
 
   stable do
-    url "https://github.com/martintopholm/xping/archive/v1.3.1.tar.gz"
-    sha256 "0d2ce17ab3d2d6b205c2bb003552e1112b028ba79c2c2cdd067383828cc939cc"
+    url "https://github.com/martintopholm/xping/archive/v1.4.0.tar.gz"
+    sha256 "d117b1caa7546719bcd90d592418c278d214937c6f576a558adc974b85a585c7"
   end
 
   head do
