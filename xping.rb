@@ -4,8 +4,7 @@ class Xping < Formula
   depends_on "libevent"
 
   stable do
-    url "https://github.com/martintopholm/xping/archive/v1.4.0.tar.gz"
-    sha256 "d117b1caa7546719bcd90d592418c278d214937c6f576a558adc974b85a585c7"
+    url "https://github.com/martintopholm/xping.git", :tag => "v1.4.2"
   end
 
   head do
@@ -28,7 +27,7 @@ class Xping < Formula
     system "#{bin}/xping", "-V"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     xping requires root privileges so you will need to run `sudo xping`.
     You should be certain that you trust any software you grant root privileges.
     EOS
